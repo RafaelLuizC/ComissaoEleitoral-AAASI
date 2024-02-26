@@ -5,7 +5,8 @@ import os
 def consome_dados_historico(doc_historico): #Essa função recebe o local do Historico Escolar do Eleitor.
     if os.path.exists(doc_historico): #Os valores do Historico escolar seguem um padrão.
         try:
-            arquivo = PdfReader(doc_historico)
+            print (f'/historicos_escolares/{doc_historico}')
+            arquivo = PdfReader(f'/historicos_escolares/{doc_historico}')
             texto = arquivo.pages[0].extract_text()
             texto = texto.splitlines()
             status = texto[13].split("Status: ")[1]
