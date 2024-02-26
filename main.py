@@ -129,17 +129,20 @@ def main():
     #Salva o arquivo .xlsx com os resultados.
 
 if __name__ == "__main__": # Executa o programa.
+    os.system('cls')
+
     if not os.path.exists("./planilha_resultado"):
         print ("Criando diretorio planilha_resultado")
         os.makedirs("./planilha_resultado")
+        
     if not os.path.exists("./historicos_escolares"):
         print ("Criando diretorio historicos_escolares")
         os.makedirs("./historicos_escolares")
     #Printa um tutorial para o usuario.
     
-    print("Para utilizar o programa, coloque o arquivo .xlsx com os resultados da eleição na pasta planilha_resultado.")
-    print("Coloque os arquivos .pdf dos historicos escolares na pasta historicos_escolares.")
-    print("O arquivo .xlsx gerado será salvo na pasta raiz do projeto.")
 
+    print("Para utilizar o programa, coloque o arquivo .xlsx com os resultados da eleição na pasta planilha_resultado.\n")
+    print("Coloque os arquivos .pdf dos historicos escolares na pasta historicos_escolares.\n")
+    print("O arquivo .xlsx gerado será salvo na pasta raiz do projeto.\n")
     input("Pressione Enter para continuar...")
     main()
