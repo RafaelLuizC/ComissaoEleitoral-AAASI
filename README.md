@@ -13,7 +13,7 @@ O programa utiliza a Linguagem Python e as bibliotecas PyPDF2 e Pandas.
 
 ## Deploy:
 
-Clone o repositório: Acesse o GitHub e faça o download do código-fonte do sistema.
+Clone o repositório:
 
 Instale as bibliotecas necessarias: Execute o comando
 ```bash
