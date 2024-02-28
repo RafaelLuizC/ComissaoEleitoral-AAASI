@@ -1,27 +1,37 @@
-Este projeto é um programa em Python que verifica e contabiliza os votos para a eleição da Atlética do Curso de BSI - AAASI - Eleição 2023. 
-O programa utiliza as bibliotecas PyPDF2 e Pandas para realizar as seguintes tarefas:
 
-Percorrer uma tabela que contém os dados do formulário de votação.
-Percorrer o arquivo PDF anexado pelo usuário que contém os votos.
-Combinar os dados dos dois arquivos.
-Verificar se cada voto é válido.
-Gerar um relatório com os resultados da contagem de votos.
+# Sistema de Contagem de Votos da AAASI - Eleição 2023
 
-Como Utilizar:
+Este projeto é um programa que verifica e contabiliza os votos para a eleição da Atlética do Curso de BSI - AAASI - Eleição 2023. 
+O programa utiliza a Linguagem Python e as bibliotecas PyPDF2 e Pandas.
 
-Clone este repositório no seu computador.
-Instale as bibliotecas necessárias usando o comando pip install -r requirements.txt.
-Execute o programa com o comando python main.py.
-Siga as instruções na tela para fornecer os arquivos de entrada e saída.
+## Funcionalidades:
 
-Contribuições:
+* Leitura e Validação de Votos: O sistema processa os votos coletados em formulário online e/ou arquivo PDF, assegurando a autenticidade e a coerência das informações.
+* Contagem Automatizada: A contagem dos votos é realizada de forma automatizada, reduzindo o tempo e o risco de erros humanos, otimizando o processo eleitoral.
+* Relatórios Detalhados: O sistema gera relatórios completos com os resultados da votação, como detalhes do motivo do voto não ter sido validado.
+
+
+## Deploy:
+
+Clone o repositório: Acesse o GitHub e faça o download do código-fonte do sistema.
+
+Instale as bibliotecas necessarias: Execute o comando
+```bash
+  pip install -r requirements.txt
+``` 
+Execute o programa: Utilize o comando 
+```bash
+  python main.py
+``` 
+Siga as instruções: Caso o usuário não tenha as pastas criadas, o sistema as criará e instruirá sobre onde colocar cada arquivo.
+
+### Nota:
+***Este código foi feito para uma situação específica, mas pode ser modificado para fazer outras verificações***
 
 Este projeto é de código aberto e você pode contribuir de diversas maneiras:
 
-Reportando bugs.
-Sugerindo melhorias.
-Enviando pull requests com suas alterações.
-
-Agradecimentos:
-
-Agradeço a Vitória que colaborou enormemente nesse projeto, e fez a parte burocrática para que essa eleição ocorresse.
+* Reportando bugs: Identifique e comunique problemas encontrados durante a utilização do sistema.
+* Sugerindo melhorias: Estou sempre disposto a melhorar, compartilhe ideias e sugestões para aprimorar as funcionalidades do sistema.
+## Agradecimentos
+* À Vitória, por sua colaboração fundamental na parte burocrática da eleição, garantindo a viabilidade do processo e me apoiar em tudo.
+* À chapa Eleita Nova Era, que tenha um bom mandato e contribua com a Instituição
